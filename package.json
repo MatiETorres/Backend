@@ -1,0 +1,23 @@
+{
+  "name": "tp-final-backend-full",
+  "version": "1.0.0",
+  "description": "Proyecto Final - Backend (Express + Handlebars + Socket.io + MongoDB)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node src/utils/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "socket.io": "^4.7.2",
+    "mongoose": "^7.6.2",
+    "dotenv": "^16.3.1",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
